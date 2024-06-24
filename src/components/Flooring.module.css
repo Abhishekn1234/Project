@@ -1,0 +1,85 @@
+.frameChild,
+.parquetConcreteInner {
+  position: absolute;
+  top: 0;
+  border-radius: var(--br-17xl);
+  background-color: var(--color-skyblue);
+  width: 100%;
+  height: 100%;
+}
+.frameChild {
+  left: calc(50% - 31.25px);
+  display: none;
+}
+.parquetConcreteInner {
+  left: 0;
+}
+.concrete1Icon {
+  position: absolute;
+  top: 15.6px;
+  left: 15.6px;
+  width: 31.3px;
+  height: 31.3px;
+  object-fit: cover;
+  z-index: 1;
+}
+.parquetConcrete {
+  height: 61.5px;
+  flex: 1;
+  position: relative;
+}
+.parquetConcreteWrapper {
+  width: 62.5px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameItem {
+  height: 61.5px;
+  width: 62.5px;
+  position: relative;
+  border-radius: var(--br-17xl);
+  background-color: var(--color-skyblue);
+  display: none;
+}
+.parquet1Icon {
+  height: 31.3px;
+  width: 31.3px;
+  position: relative;
+  border-radius: var(--br-12xs);
+  object-fit: cover;
+  z-index: 1;
+}
+.flooring,
+.flooringTypes,
+.rectangleParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.rectangleParent {
+  height: 61.5px;
+  width: 62.5px;
+  border-radius: var(--br-17xl);
+  background-color: var(--color-skyblue);
+  justify-content: flex-start;
+  padding: var(--padding-base-6) var(--padding-mini) var(--padding-mini-6);
+  box-sizing: border-box;
+}
+.flooring,
+.flooringTypes {
+  max-width: 100%;
+}
+.flooringTypes {
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.flooring {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-lg) 0 var(--padding-base);
+  box-sizing: border-box;
+}

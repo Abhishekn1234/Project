@@ -1,0 +1,385 @@
+.enterYourCredentials,
+.heyHello {
+  position: relative;
+  font-family: var(--font-poppins);
+  color: var(--color);
+  text-align: left;
+}
+.heyHello {
+  font-size: 32.1px;
+  white-space: nowrap;
+}
+.enterYourCredentials {
+  align-self: stretch;
+  font-size: 19.3px;
+  z-index: 1;
+}
+.greeting {
+  width: 340.2px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-mini);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.signInYour {
+  flex: 1;
+  position: relative;
+  font-size: 26.7px;
+  letter-spacing: 0.02em;
+  line-height: 26px;
+  font-weight: 600;
+  font-family: var(--font-poppins);
+  color: var(--color);
+  text-align: left;
+  display: inline-block;
+  max-width: 100%;
+}
+.signInYourAccountWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 34px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.email,
+.emailInput,
+.password {
+  font-family: var(--font-poppins);
+  flex-shrink: 0;
+}
+.email {
+  text-decoration: none;
+  width: 60px;
+  height: 15px;
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.02em;
+  line-height: 49.85px;
+  color: var(--color-dimgray-100);
+  text-align: left;
+  display: inline-block;
+}
+.emailInput,
+.password {
+  align-self: stretch;
+}
+.emailInput {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background-color: var(--color-whitesmoke-200);
+  height: 57px;
+  border-radius: var(--br-3xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xl) var(--padding-sm) var(--padding-5xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-mini);
+  color: var(--color-gray-400);
+  min-width: 230px;
+}
+.password {
+  height: 16px;
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.02em;
+  line-height: 49.85px;
+  color: var(--color-dimgray-100);
+  text-align: left;
+  display: inline-block;
+}
+.passwordInput {
+  width: 107px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+}
+.forgotPassword {
+  width: 153px;
+  position: relative;
+  font-size: var(--font-size-mini);
+  font-family: var(--font-poppins);
+  color: var(--color-orangered-100);
+  text-align: right;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.passwordInputArea {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.placeholder {
+  position: relative;
+  font-size: var(--font-size-mini);
+  letter-spacing: 0.02em;
+  line-height: 10px;
+  font-family: var(--font-poppins);
+  color: var(--color-gray-400);
+  text-align: left;
+  display: inline-block;
+  min-width: 69px;
+}
+.passwordVisualizerIcon {
+  height: 14.6px;
+  width: 20.9px;
+  position: absolute;
+  margin: 0 !important;
+  top: 18.4px;
+  right: 17.1px;
+  z-index: 1;
+}
+.passwordIcon {
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-whitesmoke-200);
+  overflow: hidden;
+  flex-direction: row;
+  padding: 26px var(--padding-mini) 21px;
+  position: relative;
+}
+.emailField,
+.loginForm,
+.passwordField,
+.passwordIcon {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.passwordField {
+  align-self: stretch;
+  flex-direction: column;
+  gap: 9px;
+}
+.emailField,
+.loginForm {
+  max-width: 100%;
+}
+.emailField {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-base);
+}
+.loginForm {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-12xs) var(--padding-sm);
+  box-sizing: border-box;
+}
+.signIn {
+  position: relative;
+  font-size: var(--font-size-mini);
+  letter-spacing: 0.02em;
+  line-height: 11px;
+  font-weight: 600;
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 57px;
+}
+.signInButton,
+.signInButtonArea {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.signInButton {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-5xl) var(--padding-xl) var(--padding-3xl)
+    var(--padding-4xl);
+  background-color: var(--color-orangered-100);
+  flex: 1;
+  border-radius: var(--br-3xs);
+  overflow: hidden;
+  justify-content: center;
+  white-space: nowrap;
+}
+.signInButton:hover {
+  background-color: #e64d0a;
+}
+.signInButtonArea {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs);
+}
+.orSignIn {
+  width: 152px;
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.02em;
+  line-height: 50px;
+  font-family: var(--font-poppins);
+  color: var(--color-gray-200);
+  text-align: left;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.socialLoginHeader {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-3xl);
+}
+.xmlid28Icon {
+  position: absolute;
+  top: 9.4px;
+  left: 40.3px;
+  width: 36px;
+  height: 36.7px;
+  z-index: 1;
+}
+.buttonContainer {
+  height: 56px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-whitesmoke-200);
+  overflow: hidden;
+  min-width: 86px;
+}
+.primaryIcon {
+  position: absolute;
+  top: 9px;
+  left: 47px;
+  width: 22px;
+  height: 35px;
+  z-index: 1;
+}
+.buttonContainer1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-whitesmoke-200);
+  height: 56px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-8xs);
+  overflow: hidden;
+  min-width: 86px;
+}
+.primaryIcon1 {
+  position: absolute;
+  top: 9px;
+  left: 38px;
+  width: 41px;
+  height: 32px;
+  z-index: 1;
+}
+.buttonContainer2 {
+  height: 56px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-whitesmoke-200);
+  overflow: hidden;
+  min-width: 86px;
+}
+.socialLoginButtons {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 19.5px;
+}
+.socialLogin,
+.socialLoginOptions {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.socialLoginOptions {
+  flex: 1;
+  flex-direction: column;
+  gap: 5px;
+}
+.socialLogin {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-12xs) var(--padding-5xl);
+  box-sizing: border-box;
+}
+.dontHaveAn,
+.signUp {
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.02em;
+  line-height: 50px;
+  font-family: var(--font-poppins);
+  text-align: left;
+  display: inline-block;
+}
+.dontHaveAn {
+  flex: 1;
+  color: var(--color-gray-200);
+  min-width: 156px;
+}
+.signUp {
+  width: 86px;
+  color: var(--color-orangered-100);
+  flex-shrink: 0;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.signInCustomerSeller,
+.signupOption,
+.signupOptionWrapper {
+  max-width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.signupOption {
+  flex: 1;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-9xs);
+}
+.signInCustomerSeller,
+.signupOptionWrapper {
+  box-sizing: border-box;
+}
+.signupOptionWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-mini) 0 var(--padding-lg);
+}
+.signInCustomerSeller {
+  margin: 0;
+  width: 430px;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  padding: 116px var(--padding-3xl) var(--padding-mini);
+  gap: 34px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 326px) {
+  .passwordInputArea {
+    flex-wrap: wrap;
+  }
+}

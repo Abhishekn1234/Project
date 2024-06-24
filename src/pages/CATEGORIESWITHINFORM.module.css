@@ -1,0 +1,137 @@
+.categoriesWithinFormChild {
+  align-self: stretch;
+  height: 414px;
+  position: relative;
+  background-color: var(--color-white);
+  display: none;
+  z-index: 0;
+}
+.categoriesWithinFormInner,
+.categoriesWithinFormItem {
+  width: 140px;
+  height: 173px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  display: none;
+  z-index: 1;
+}
+.categoriesWithinFormInner {
+  z-index: 2;
+}
+.cementBags,
+.kg {
+  line-height: 12px;
+  font-weight: 500;
+}
+.cementBags {
+  width: 99px;
+  position: relative;
+  font-size: var(--font-size-sm);
+  text-align: center;
+  display: none;
+  min-width: 99px;
+  z-index: 3;
+}
+.kg {
+  color: var(--color-dimgray-200);
+  min-width: 30px;
+  z-index: 4;
+}
+.div,
+.div1,
+.kg {
+  position: relative;
+  display: none;
+}
+.div {
+  width: 54px;
+  font-size: var(--font-size-base);
+  line-height: 20px;
+  font-weight: 600;
+  white-space: nowrap;
+  z-index: 5;
+}
+.div1 {
+  line-height: 12px;
+  font-weight: 500;
+  color: var(--color-white);
+  min-width: 30px;
+  z-index: 6;
+}
+.addSquareSvgrepoCom2Icon {
+  width: 27px;
+  height: 27px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  z-index: 7;
+}
+.steelAndHome {
+  position: absolute;
+  top: 367px;
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  align-self: stretch;
+  height: 458px;
+  position: relative;
+  max-width: 100%;
+}
+.bottomSeparator {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  right: 0;
+  bottom: -1px;
+  left: 0;
+  background-color: rgba(18, 18, 18, 0.41);
+  z-index: 9;
+}
+.categoriesWithinForm,
+.footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.footer {
+  margin: 0 !important;
+  position: absolute;
+  top: 61px;
+  right: 0;
+  left: 0;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 19px;
+  max-width: 100%;
+}
+.categoriesWithinForm {
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 474px 0 0;
+  box-sizing: border-box;
+  line-height: normal;
+  letter-spacing: normal;
+  cursor: pointer;
+  text-align: left;
+  font-size: var(--font-size-3xs);
+  color: var(--color);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 407px) {
+  .frameParent {
+    height: auto;
+    min-height: 458;
+  }
+}

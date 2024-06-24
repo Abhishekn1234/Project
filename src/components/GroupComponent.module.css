@@ -1,0 +1,197 @@
+.div {
+  width: 54px;
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  color: var(--color);
+  white-space: nowrap;
+}
+.div,
+.newArrivals,
+.rightCircleSvgrepoCom3Icon {
+  position: relative;
+  flex-shrink: 0;
+  display: none;
+}
+.newArrivals {
+  width: 148px;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  color: var(--color-indianred);
+}
+.rightCircleSvgrepoCom3Icon {
+  height: 29px;
+  width: 29px;
+  overflow: hidden;
+}
+.frameChild {
+  height: 91px;
+  width: 430px;
+  position: relative;
+  box-shadow: 0-6px 15px rgba(0, 0, 0, 0.25);
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+}
+.homeIcon1 {
+  height: 37px;
+  width: 37px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.homeIcon {
+  height: 35px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+}
+.home {
+  text-decoration: none;
+  position: relative;
+  line-height: 16px;
+  color: inherit;
+  display: inline-block;
+  min-width: 37.2px;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.homeDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.categorySvgrepoCom1Icon {
+  height: 37px;
+  width: 37px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.categoryDetails {
+  height: 32px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-lg) 0 var(--padding-lgi);
+  box-sizing: border-box;
+}
+.categories {
+  position: relative;
+  line-height: 16px;
+  display: inline-block;
+  min-width: 74px;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.categoriesButton,
+.homeButton {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: var(--color-gray-100);
+}
+.homeButton {
+  width: 164px;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  color: var(--color-orangered-100);
+}
+.boxSvgrepoCom1Icon {
+  height: 37px;
+  width: 37px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.orderIcon {
+  height: 32px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xs) 0 var(--padding-10xs);
+  box-sizing: border-box;
+}
+.orders {
+  position: relative;
+  line-height: 16px;
+  display: inline-block;
+  min-width: 46px;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.orderDetails,
+.ordersButton {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.ordersButton {
+  padding: var(--padding-10xs) 0 0;
+}
+.profile {
+  position: relative;
+  line-height: 16px;
+  display: inline-block;
+  min-width: 40px;
+  z-index: 1;
+}
+.profileSvgrepoCom1Icon {
+  height: 37px;
+  width: 37px;
+  position: absolute;
+  margin: 0 !important;
+  top: -32px;
+  right: 1px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.parent,
+.profileButton,
+.profileDetails {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.profileDetails {
+  flex-direction: row;
+  position: relative;
+}
+.parent,
+.profileButton {
+  flex-direction: column;
+  padding: var(--padding-16xl) 0 0;
+}
+.parent {
+  flex: 1;
+  box-shadow: 0-6px 15px rgba(0, 0, 0, 0.25);
+  background-color: var(--color-white);
+  flex-direction: row;
+  padding: var(--padding-mini) var(--padding-21xl) var(--padding-6xl);
+  box-sizing: border-box;
+  gap: var(--gap-29xl-9);
+  max-width: 100%;
+  z-index: 6;
+  text-align: left;
+  font-size: var(--font-size-smi);
+  color: var(--color-gray-100);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 407px) {
+  .parent {
+    flex-wrap: wrap;
+  }
+}

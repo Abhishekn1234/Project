@@ -1,0 +1,125 @@
+.frameChild,
+.frameItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.frameItem {
+  top: 6px;
+  left: 2px;
+  width: 46px;
+  height: 39px;
+  z-index: 1;
+}
+.frameParent {
+  align-self: stretch;
+  height: 50px;
+  position: relative;
+}
+.location {
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+}
+.locationPinSvgrepoCom1Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+}
+.kochiIndia {
+  text-decoration: none;
+  position: absolute;
+  top: 0;
+  left: 22px;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  width: 95px;
+  height: 26px;
+  min-width: 95px;
+  white-space: nowrap;
+}
+.downChevronSvgrepoCom1Icon {
+  position: absolute;
+  top: 6px;
+  left: 114px;
+  width: 14px;
+  height: 14px;
+  overflow: hidden;
+}
+.searchDetails {
+  align-self: stretch;
+  height: 26px;
+  position: relative;
+}
+.searchIcon {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-sm);
+}
+.searchCircleStreamlineUltiIcon,
+.shoppingCartSvgrepoCom1Icon {
+  height: 59px;
+  width: 59px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.shoppingCartSvgrepoCom1Icon {
+  width: 34px;
+  height: 34px;
+}
+.cartIcon {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-xs);
+}
+.cart,
+.search {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.search {
+  width: 260px;
+  gap: var(--gap-8xl);
+}
+.footerContent,
+.locationSearch {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.locationSearch {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.footerContent {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-4xl) var(--padding-6xs) var(--padding-8xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color);
+  font-family: var(--font-poppins);
+}

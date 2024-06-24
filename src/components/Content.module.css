@@ -1,0 +1,455 @@
+.topCategoriesHeaderItems {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-mini);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+.topCategoriesHeader {
+  margin-left: -255px;
+  height: 86px;
+  width: 228px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) 0 0;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.categoryImageIcon,
+.topCategoriesHeaderChild {
+  position: relative;
+  border-radius: var(--br-mini);
+  object-fit: cover;
+  flex-shrink: 0;
+}
+.categoryImageIcon {
+  height: 99px;
+  width: 306px;
+}
+.topCategoriesHeaderChild {
+  align-self: stretch;
+  flex: 1;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.topCategories,
+.topCategoriesHeader1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.topCategoriesHeader1 {
+  height: 86px;
+  width: 228px;
+  flex-direction: column;
+  padding: var(--padding-xs) 0 0;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.topCategories {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-41xl);
+  gap: var(--gap-8xl);
+}
+.frameChild {
+  height: 59px;
+  width: 60px;
+  position: relative;
+  border-radius: var(--br-17xl);
+  background-color: var(--color-skyblue);
+  display: none;
+}
+.brickwork1Icon {
+  height: 30px;
+  width: 30px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.rectangleParent {
+  width: 60px;
+  height: 59px;
+  border-radius: var(--br-17xl);
+  background-color: var(--color-skyblue);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-sm) var(--padding-mini) var(--padding-mini);
+  box-sizing: border-box;
+  z-index: 10;
+}
+.masonry {
+  position: relative;
+  display: inline-block;
+  min-width: 43px;
+  z-index: 10;
+}
+.categoryNames,
+.masonryTypes {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.masonryTypes {
+  flex-direction: row;
+  padding: 0 var(--padding-5xs) 0 var(--padding-4xs);
+}
+.categoryNames {
+  flex-direction: column;
+  gap: var(--gap-11xs);
+  text-align: left;
+}
+.concrete,
+.ready {
+  margin: 0;
+}
+.concreteReady {
+  position: absolute;
+  margin: 0 !important;
+  right: 6px;
+  bottom: -6px;
+  line-height: 10px;
+}
+.concreteSteelTypesInner,
+.frameItem {
+  position: absolute;
+  top: 0;
+  border-radius: var(--br-17xl);
+  background-color: var(--color-skyblue);
+  width: 100%;
+  height: 100%;
+}
+.frameItem {
+  left: calc(50% - 30px);
+  display: none;
+}
+.concreteSteelTypesInner {
+  left: 0;
+}
+.concreteMixer1Icon {
+  position: absolute;
+  top: 14px;
+  left: 15px;
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  z-index: 1;
+}
+.concreteSteelTypes {
+  height: 59px;
+  flex: 1;
+  position: relative;
+}
+.concreteSteelTypesWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.categoryNamesInner {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-lg);
+}
+.categoryNames1 {
+  width: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.chemicals1,
+.construction {
+  margin: 0;
+}
+.constructionChemicals {
+  width: 68px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -6px;
+  left: calc(50% - 34px);
+  line-height: 10px;
+  display: inline-block;
+}
+.indicators,
+.indicators1,
+.indicators2 {
+  position: absolute;
+  top: 0;
+  left: 12px;
+  border-radius: 50%;
+  background-color: var(--color-gray-300);
+  width: 7px;
+  height: 7px;
+}
+.indicators1,
+.indicators2 {
+  left: 0;
+  background-color: var(--color-gainsboro-100);
+}
+.indicators2 {
+  left: 24px;
+}
+.indicatorsParent {
+  height: 7px;
+  width: 31px;
+  position: relative;
+}
+.chemicalsIndicators {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-mini) 0 var(--padding-sm);
+}
+.frameInner,
+.imageContainerInner {
+  position: absolute;
+  top: 0;
+  border-radius: var(--br-17xl);
+  background-color: var(--color-skyblue);
+  width: 100%;
+  height: 100%;
+}
+.frameInner {
+  left: calc(50% - 30px);
+  display: none;
+}
+.imageContainerInner {
+  left: 0;
+}
+.oil1Icon {
+  position: absolute;
+  top: 14px;
+  left: 15px;
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  z-index: 1;
+}
+.imageContainer {
+  height: 59px;
+  flex: 1;
+  position: relative;
+}
+.imageContainerWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.chemicalsNavContainer {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.chemicals,
+.chemicalsNavContainer,
+.chemicalsNavigation {
+  display: flex;
+  align-items: flex-start;
+}
+.chemicalsNavigation {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-lg);
+}
+.chemicals {
+  width: 60px;
+  flex-direction: row;
+  justify-content: flex-start;
+  position: relative;
+}
+.scaffolding,
+.steelSpacers {
+  margin: 0;
+}
+.steelSpacersScaffoldingContainer {
+  width: 71px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -6px;
+  left: -6px;
+  line-height: 10px;
+  display: inline-block;
+}
+.rectangleDiv,
+.rectangleWrapper {
+  position: absolute;
+  top: 0;
+  border-radius: var(--br-17xl);
+  background-color: var(--color-skyblue);
+  width: 100%;
+  height: 100%;
+}
+.rectangleDiv {
+  left: calc(50% - 30px);
+  display: none;
+}
+.rectangleWrapper {
+  left: 0;
+}
+.steel1Icon {
+  position: absolute;
+  top: 14px;
+  left: 15px;
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  z-index: 1;
+}
+.frameParent {
+  height: 59px;
+  flex: 1;
+  position: relative;
+}
+.categoryNamesChild,
+.frameWrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.frameWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.categoryNamesChild {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-lg);
+}
+.categoryNames2 {
+  width: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.frameChild1,
+.plasteringInner {
+  position: absolute;
+  top: 0;
+  border-radius: var(--br-17xl);
+  background-color: var(--color-skyblue);
+  width: 100%;
+  height: 100%;
+}
+.frameChild1 {
+  left: calc(50% - 30px);
+  display: none;
+}
+.plasteringInner {
+  left: 0;
+}
+.plastering1Icon {
+  position: absolute;
+  top: 14px;
+  left: 15px;
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  z-index: 1;
+}
+.plastering {
+  height: 59px;
+  flex: 1;
+  position: relative;
+}
+.plasteringWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.plasterMortar {
+  flex: 1;
+  position: relative;
+  line-height: 10px;
+}
+.mortar {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-8xs);
+}
+.categoryNames3,
+.frameGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.frameGroup {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.categoryNames3 {
+  width: 60px;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-8xs);
+  box-sizing: border-box;
+}
+.categoryContainers {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.categoriesList,
+.content {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.categoriesList {
+  flex-direction: row;
+  padding: 0 var(--padding-lg) 0 var(--padding-base);
+  box-sizing: border-box;
+}
+.content {
+  flex-direction: column;
+  gap: var(--gap-3xs);
+  text-align: center;
+  font-size: var(--font-size-3xs);
+  color: var(--color);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 414px) {
+  .categoryContainers {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 409px) {
+  .topCategories {
+    flex-wrap: wrap;
+  }
+}

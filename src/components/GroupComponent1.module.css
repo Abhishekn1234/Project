@@ -1,0 +1,114 @@
+.frameChild {
+  width: 237px;
+  height: 92px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-lightpink);
+  display: none;
+}
+.tmtSteelBars {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 12px;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 109px;
+  z-index: 1;
+}
+.ogunSteelBar500x5001RemovIcon {
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 4px;
+  transform: scale(1.146);
+}
+.wrapperOgunSteelBar500x500 {
+  height: 78px;
+  width: 117px;
+  position: absolute;
+  margin: 0 !important;
+  right: -114px;
+  bottom: -64px;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.steelName {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.fe550Grade {
+  position: relative;
+  font-size: var(--font-size-3xs);
+  line-height: 12px;
+  font-weight: 500;
+  color: var(--color-dimgray-200);
+  display: inline-block;
+  min-width: 72px;
+  z-index: 1;
+}
+.steelDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+}
+.filler,
+.startingFrom {
+  position: relative;
+  z-index: 1;
+}
+.startingFrom {
+  margin: 0;
+  align-self: stretch;
+  font-size: inherit;
+  line-height: 12px;
+  font-weight: 500;
+  font-family: inherit;
+}
+.filler {
+  width: 54px;
+  font-size: var(--font-size-base);
+  line-height: 20px;
+  font-weight: 600;
+  color: var(--color);
+  display: inline-block;
+  white-space: nowrap;
+}
+.rectangleParent,
+.startingFromParent {
+  width: 129px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  color: var(--color-mediumvioletred);
+}
+.rectangleParent {
+  width: 237px;
+  margin: 0 !important;
+  position: absolute;
+  top: -62px;
+  left: 17px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-lightpink);
+  padding: var(--padding-3xs) var(--padding-smi) var(--padding-2xs);
+  gap: var(--gap-mini);
+  z-index: 3;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color);
+  font-family: var(--font-poppins);
+}
